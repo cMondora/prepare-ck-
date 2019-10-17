@@ -7,7 +7,11 @@ Firstly run prepare_ck.py to generate the rgb images gather by their labels.
 ```
 [your_path]\CK+\extended-cohn-hanade-emages\cohn-kanade-images
 [your_path]\CK+\Emotion_labels\Emotion
-[your_path]
+[your_path_to_save_rgb]
 ```
 
 Then extract_flow.py is to generate optical flow images for CK+.
+```
+[your_path_to_save_rgb]
+[your_path_to_save_flow]
+```
